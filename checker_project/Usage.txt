@@ -1,0 +1,12 @@
+
+Create a file named subdomains.txt and add your subdomains (one per line), e.g.:
+sub1.example.com
+sub2.example.com
+
+Run the script:
+python subdomain_checker.py subdomains.txt
+Check the output for status codes (e.g., 200, 404) or errors.
+
+Example Output:
+sub1.example.com    200
+sub2.example.com    Error: HTTPSConnectionPool(host='sub2.example.com', port=443): Max retries exceeded

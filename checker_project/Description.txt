@@ -1,0 +1,7 @@
+# Subdomain Checker Tool
+A simple Python tool to check the HTTP status codes of subdomains.
+
+## Features
+- Checks HTTP status codes for a list of subdomains.
+- Handles errors like connection timeouts and SSL issues.
+- Easy to use with a text file containing subdomains.
